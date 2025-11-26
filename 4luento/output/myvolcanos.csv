@@ -1,0 +1,337 @@
+volcanonumber,volcanoname,volcanoId
+300130,Karymsky,1
+273010,Bulusan,2
+334050,Northern EPR at 9.8°N,3
+300260,Klyuchevskoy,4
+371020,Reykjanes,5
+252120,Ulawun,6
+263340,Raung,7
+311160,Atka Volcanic Complex,8
+351060,Purace,9
+264230,Lewotolok,10
+344040,Telica,11
+345040,Poas,12
+300250,Bezymianny,13
+332010,Kilauea,14
+263200,Dieng Volcanic Complex,15
+243080,Home Reef,16
+261230,Dempo,17
+272020,Kanlaon,18
+357090,Copahue,19
+257040,Ambrym,20
+282060,Kikai,21
+284141,Ahyi,22
+344020,San Cristobal,23
+257030,Ambae,24
+273030,Mayon,25
+261170,Kerinci,26
+261270,Suoh,27
+241040,Whakaari/White Island,28
+344120,Concepcion,29
+354020,Ubinas,30
+267010,Ruang,31
+273070,Taal,32
+260010,Barren Island,33
+353010,Fernandina,34
+264180,Lewotobi,35
+311110,Kanaga,36
+263310,Tengger Caldera,37
+261140,Marapi,38
+284120,Ioto,39
+284202,Ruby,40
+311360,Shishaldin,41
+371032,Fagradalsfjall,42
+233020,"Fournaise, Piton de la",43
+267020,Karangetang,44
+257060,East Epi,45
+290360,Chikurachki,46
+355100,Lascar,47
+211060,Etna,48
+332020,Mauna Loa,49
+343100,San Miguel,50
+352050,Cotopaxi,51
+290260,Chirinkotan,52
+284096,Nishinoshima,53
+290390,Alaid,54
+284100,Kaitoku Seamount,55
+345070,Turrialba,56
+290380,Ebeko,57
+257020,Gaua,58
+284110,Kita-Ioto,59
+264050,Sangeang Api,60
+353020,Wolf,61
+243040,Hunga Tonga-Hunga Ha'apai,62
+273083,Pinatubo,63
+264250,Iliwerung,64
+282110,Asosan,65
+383010,La Palma,66
+284130,Fukutoku-Oka-no-Ba,67
+312030,Pavlof,68
+284170,Pagan,69
+264270,Sirung,70
+345020,Rincon de la Vieja,71
+311120,Great Sitkin,72
+262000,Krakatau,73
+312070,Veniaminof,74
+311060,Semisopochnoi,75
+263250,Merapi,76
+360150,Soufriere St. Vincent,77
+282050,Kuchinoerabujima,78
+261080,Sinabung,79
+311240,Cleveland,80
+266030,Soputan,81
+290240,Sarychev Peak,82
+243070,Lateiki,83
+283110,Asamayama,84
+243091,Unnamed,85
+263090,Tangkuban Parahu,86
+290250,Raikoke,87
+341040,Colima,88
+352090,Sangay,89
+256010,Tinakula,90
+357040,Planchon-Peteroa,91
+268060,Gamalama,92
+233005,Mayotte,93
+353050,"Negra, Sierra",94
+251020,Manam,95
+223020,Nyamulagira,96
+282090,Kirishimayama,97
+283120,Kusatsu-Shiranesan,98
+251002,Kadovar,99
+264020,Agung,100
+263300,Semeru,101
+360160,Kick 'em Jenny,102
+222120,"Lengai, Ol Doinyo",103
+282080,Aira,104
+300010,Kambalny,105
+243030,Unnamed,106
+311300,Bogoslof,107
+300120,Zhupanovsky,108
+354006,Sabancaya,109
+264030,Rinjani,110
+390080,Bristol Island,111
+390130,Zavodovski,112
+357070,"Chillan, Nevados de",113
+344090,Momotombo,114
+252010,Langila,115
+344100,Masaya,116
+243060,Tofua,117
+266100,Lokon-Empung,118
+283020,Hakoneyama,119
+342110,Pacaya,120
+331021,Axial Seamount,121
+358020,Calbuco,122
+357120,Villarrica,123
+384010,Fogo,124
+351020,"Ruiz, Nevado del",125
+390090,Saunders,126
+242050,Monowai,127
+283040,Ontakesan,128
+373030,Bardarbunga,129
+252140,Rabaul,130
+263180,Slamet,131
+263280,Kelud,132
+255060,Kavachi,133
+221020,Zubair Group,134
+290070,Etorofu-Yakeyama [Grozny Group],135
+284305,Mariana Back-Arc Segment at 15.5°N,136
+352080,Tungurahua,137
+300240,Tolbachik,138
+241080,Tongariro,139
+290150,Chirpoi,140
+264150,Paluweh,141
+234010,Heard,142
+242005,Havre Seamount,143
+351080,Galeras,144
+252080,Witori,145
+358057,"Hudson, Cerro",146
+383020,Hierro,147
+221101,Nabro,148
+357150,Puyehue-Cordon Caulle,149
+373010,Grimsvotn,150
+221041,Dallol,151
+300230,Kizimen,152
+290270,Ekarma,153
+300070,Gorely,154
+284193,South Sarigan Seamount,155
+284040,Miyakejima,156
+372020,Eyjafjallajokull,157
+221115,Manda Hararo,158
+313030,Redoubt,159
+300090,Koryaksky,160
+285070,Akan,161
+243120,Tafu-Maka,162
+243130,West Mata,163
+221060,Alu-Dalafilla,164
+351050,"Huila, Nevado del",165
+311130,Kasatochi,166
+352010,Reventador,167
+252070,Krummel-Garbuna-Welcker,168
+311290,Okmok,169
+241130,Rumble III,170
+353060,"Azul, Cerro",171
+358041,Chaiten,172
+264160,Egon,173
+268030,Ibu,174
+357110,Llaima,175
+261160,Talang,176
+284200,Anatahan,177
+221010,"Tair, Jebel at",178
+241100,Ruapehu,179
+268040,Gamkonora,180
+251070,Ritter Island,181
+257050,Lopevi,182
+264260,"Tara, Batu",183
+233010,Karthala,184
+312260,Fourpeaked,185
+242030,Raoul Island,186
+266020,Ambang,187
+313010,Augustine,188
+221113,Dabbahu,189
+234011,McDonald Islands,190
+343020,Santa Ana,191
+360050,Soufriere Hills,192
+341090,Popocatepetl,193
+282030,Suwanosejima,194
+321050,St. Helens,195
+386011,Nightingale Island,196
+234070,Marion Island,197
+267040,Awu,198
+285050,Tokachidake,199
+284211,NW Rota-1,200
+264200,Leroboleng,201
+334040,Northern EPR at 10.7°N,202
+244000,Vailulu'u,203
+263100,Papandayan,204
+352020,Guagua Pichincha,205
+284090,Izu-Torishima,206
+223030,Nyiragongo,207
+342090,Fuego,208
+385052,Walvis Ridge at 33°S,209
+300100,Avachinsky,210
+390081,Montagu Island,211
+264090,Inielika,212
+261030,Peuet Sague,213
+285020,Hokkaido-Komagatake,214
+261220,Kaba,215
+300060,Mutnovsky,216
+224010,Cameroon,217
+285030,Toya,218
+255020,Bagana,219
+372070,Hekla,220
+290100,Moyorodake [Medvezhia],221
+300270,Sheveluch,222
+344070,"Negro, Cerro",223
+263350,Ijen,224
+377020,East Gakkel Ridge at 85°E,225
+264010,Batur,226
+382050,Terceira,227
+312110,Chiginagak,228
+283090,Niigata-Yakeyama,229
+283260,Akita-Yakeyama,230
+360101,"Watt, Morne",231
+311190,Amukta,232
+283170,Adatarayama,233
+334070,Galapagos Rift,234
+331031,North Gorda Ridge Segment,235
+332000,Kama'ehuakanaloa,236
+258001,Gemini-Oscostar,237
+282100,Unzendake,238
+300125,Akademia Nauk,239
+234000,Boomerang Seamount,240
+282120,Kujusan,241
+355040,Irruputuncu,242
+283070,Yakedake,243
+311310,Makushin,244
+353040,Alcedo,245
+251050,Long Island,246
+331020,CoAxial Segment,247
+264220,Iliboleng,248
+311180,Seguam,249
+341021,Socorro,250
+311320,Akutan,251
+313040,Spurr,252
+311340,Westdahl,253
+353080,Marchena,254
+264071,Ranakah,255
+284010,Izu-Oshima,256
+334120,Southern EPR at 17.5°S (Segment K),257
+311020,Kiska,258
+311070,Gareloi,259
+283010,Izu-Tobu,260
+357100,Lonquimay,261
+268070,Kie Besi,262
+265090,Banda Api,263
+357010,Tupungatito,264
+333060,Macdonald,265
+331030,Cleft Segment,266
+261120,Sorikmarapi,267
+341130,Tacana,268
+354010,"Misti, El",269
+333010,Teahitia,270
+376010,Jan Mayen,271
+373080,Krafla,272
+263140,Galunggung,273
+266010,Colo,274
+341120,"Chichon, El",275
+290030,Chachadake [Tiatia],276
+241050,Okataina,277
+285040,Shikotsu,278
+357091,Callaqui,279
+243102,Curacoa,280
+357140,Carran-Los Venados,281
+358060,Lautaro,282
+251030,Karkar,283
+221126,Ardoukoba,284
+274020,Didicas,285
+283180,Azumayama,286
+266110,Mahawu,287
+312131,Ukinrek Maars,288
+345060,Irazu,289
+360060,Soufriere Guadeloupe,290
+284131,Minami-Hiyoshi,291
+390070,Southern Thule,292
+312160,Trident,293
+283220,Chokaisan,294
+257070,Kuwae,295
+284133,Fukujin,296
+290120,Kolokol Group,297
+372010,Vestmannaeyjar,298
+390020,Erebus,299
+342080,Acatenango,300
+333020,Rocard,301
+290160,Unnamed,302
+250030,Central Bismarck Sea,303
+263210,Sundoro,304
+283230,Akita-Komagatake,305
+390030,Deception Island,306
+333030,Moua Pihaa,307
+284070,Myojinsho,308
+264100,Ebulobo,309
+264110,Iya,310
+345033,Arenal,311
+282020,Io-Torishima,312
+264140,Kelimutu,313
+373050,Kverkfjoll,314
+265060,Nila,315
+357060,"Azul, Cerro",316
+221080,Erta Ale,317
+264040,Tambora,318
+343030,Izalco,319
+257010,Suretamatai,320
+334100,Southern EPR at 8°S,321
+283150,Nasudake,322
+390140,Protector Seamounts,323
+373060,Askja,324
+386010,Tristan da Cunha,325
+355020,Guallatiri,326
+290200,Ketoi,327
+357020,San Jose,328
+251010,Bam,329
+284134,Kasuga 1,330
+290180,Zavaritzki Caldera,331
+290220,Rasshua,332
+382010,Fayal,333
+223050,Visoke,334
+243100,Fonualei,335
+263060,Gede-Pangrango,336
