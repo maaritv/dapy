@@ -17,11 +17,6 @@ def read_csv_file(file_name):
     return df
 
 def transform_eruptions_to_volcanos(eruptions_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Luodaan volcanos-dataframe eruptions-datasta.
-    Mukaan otetaan volcanoNumber (1. sarake) ja volcanoName,
-    poistetaan duplikaatit ja lisätään keinotekoinen avain.
-    """
     print(eruptions_df.columns)
     eruptions_df.columns = eruptions_df.columns.str.strip()
     volcanos_df = (
@@ -37,6 +32,8 @@ def transform_eruptions_to_volcanos(eruptions_df: pd.DataFrame) -> pd.DataFrame:
         volcanos_df.columns[0]: "volcanonumber",
         "volcanoName": "volcanoname"
     })
+    #Latitude ja longitude
+    volcanos_df["location"] = "["+eruptions_df[eruptions_df.columns[21]] + " " + eruptions_df[eruptions_df.columns[22]]+"]"
     return volcanos_df
 
 def save_to_file(pandasDataFrame, fileName):
