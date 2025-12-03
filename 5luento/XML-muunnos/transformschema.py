@@ -1,10 +1,6 @@
 from lxml import etree
 
-def transform():
-    # Load the XML and XSLT files
-    xml_file = 'books.xml'
-    xslt_file = 'book-to-dublincore.xslt'
-
+def transform(xml_file, xslt_file):
     xml = etree.parse(xml_file)
     xslt = etree.parse(xslt_file)
 
@@ -17,5 +13,9 @@ def transform():
     #print(str(result))
     return (str(result))
 
-result = transform()
+# Load the XML and XSLT files
+xml_file = 'books.xml'
+xslt_file = 'book-to-dublincore.xslt'
+
+result = transform(xml_file, xslt_file)
 print(result)

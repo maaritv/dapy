@@ -1,13 +1,6 @@
 from lxml import etree
 
 def validate_xml_with_xsd(xml_file, xsd_file):
-    """
-    Validate an XML file against an XSD file.
-
-    :param xml_file: Path to the XML file.
-    :param xsd_file: Path to the XSD file.
-    :return: True if the XML file is valid, False otherwise.
-    """
     try:
         # Parse the XML and XSD files
         xml_doc = etree.parse(xml_file)
@@ -21,17 +14,17 @@ def validate_xml_with_xsd(xml_file, xsd_file):
         xmlschema.assertValid(xml_doc)
         print(f"The XML file '{xml_file}' is valid against the XSD '{xsd_file}'.")
         return True
-    except etree.XMLSchemaError as e:
-        print(f"The XML file '{xml_file}' is not valid against the XSD '{xsd_file}'.")
-        print(f"Error: {e}")
-        return False
+    except(etree.DocumentInvalid) as e:
+        raise ValueError(f"The XML file '{xml_file}' is not valid against the XSD '{xsd_file}' {e}.")
     except (etree.XMLSyntaxError, IOError) as e:
-        print(f"An error occurred: {e}")
-        return False
+        raise ValueError(f"Syntax error {e}")
 
 if __name__ == "__main__":
     # Example usage
     xml_file_path = 'customer.xml'  # Replace with your XML file path
     xsd_file_path = 'customer.xsd'   # Replace with your XSD file path
 
-    result=validate_xml_with_xsd(xml_file_path, xsd_file_path)
+    try:
+        result=validate_xml_with_xsd(xml_file_path, xsd_file_path)
+    except (ValueError) as e:
+        print(f"Validointivirhe! Customer.xml ei ole customer.xsd -skeeman mukainen. {e}")
