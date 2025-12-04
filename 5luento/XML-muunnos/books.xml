@@ -2,7 +2,7 @@
 <Library>
     <Books>
         <Book>
-            <nimi>The Great Gatsby</nimi>
+            <Title>The Great Gatsby</Title>
             <Author>F. Scott Fitzgerald</Author>
             <Genre>Fiction</Genre>
             <PublishedYear>1925</PublishedYear>
