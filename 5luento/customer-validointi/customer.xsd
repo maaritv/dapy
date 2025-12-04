@@ -6,7 +6,7 @@
             <xs:sequence>
                 <!-- Customer elements -->
                 <xs:element name="created" type="xs:date" minOccurs="0"/>
-                <xs:element name="firstName" type="xs:string"/>
+                <xs:element name="firstName" type="xs:string" maxOccurs="3"/>
                 <xs:element name="lastName" type="xs:string"/>
                 <xs:element name="telephone">
                     <xs:simpleType>

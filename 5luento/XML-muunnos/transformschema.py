@@ -1,5 +1,6 @@
 from lxml import etree
 
+
 def transform(xml_file, xslt_file):
     xml = etree.parse(xml_file)
     xslt = etree.parse(xslt_file)
@@ -16,6 +17,12 @@ def transform(xml_file, xslt_file):
 # Load the XML and XSLT files
 xml_file = 'books.xml'
 xslt_file = 'book-to-dublincore.xslt'
+xsd_file="books.xsd"
 
-result = transform(xml_file, xslt_file)
-print(result)
+try:
+    #validate_xml_with_xsd(xml_file, xsd_file)
+    result = transform(xml_file, xslt_file)
+    print("Skeemamuunnos onnistui.")
+    print(result)
+except (ValueError) as e:
+    print(f"Transformointivirhe {e}")

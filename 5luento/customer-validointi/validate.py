@@ -12,7 +12,6 @@ def validate_xml_with_xsd(xml_file, xsd_file):
 
         # Validate the XML file
         xmlschema.assertValid(xml_doc)
-        print(f"The XML file '{xml_file}' is valid against the XSD '{xsd_file}'.")
         return True
     except(etree.DocumentInvalid) as e:
         raise ValueError(f"The XML file '{xml_file}' is not valid against the XSD '{xsd_file}' {e}.")
@@ -26,5 +25,6 @@ if __name__ == "__main__":
 
     try:
         result=validate_xml_with_xsd(xml_file_path, xsd_file_path)
+        print(f"The XML file '{xml_file_path}' is valid against the XSD '{xsd_file_path}'.")
     except (ValueError) as e:
         print(f"Validointivirhe! Customer.xml ei ole customer.xsd -skeeman mukainen. {e}")
