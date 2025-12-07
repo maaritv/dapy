@@ -4,7 +4,9 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/">
 
     <xsl:template match="/">
-        <xsl:apply-templates select="Library/Books/Book"/>
+        <Records>
+            <xsl:apply-templates select="Library/Books/Book"/>
+        </Records>
     </xsl:template>
 
     <!-- Skeemakohdistus Book elementistä Dublin Core-elementiksi. -->

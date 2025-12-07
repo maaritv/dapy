@@ -1,8 +1,5 @@
 from lxml import etree
-
-
 import validate as validate
-
 
 
 def transform(xml_file, xslt_file):

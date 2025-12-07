@@ -20,7 +20,6 @@ def validate_xml_with_xsd(xml_file, xsd_file):
         raise ValueError(f"Syntax error {e}")
 
 if __name__ == "__main__":
-    # Example usage
     #Hakemistopolut suhteessa hakemistoon, josta ajat sovelluksen. tässä "5luento"
     xml_file_path = 'data/customer.xml'  # Replace with your XML file path
     xsd_file_path = 'schemas/customer.xsd'   # Replace with your XSD file path
