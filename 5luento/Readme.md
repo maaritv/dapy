@@ -13,7 +13,7 @@ Validate varmistaa, että customer.xml on oikean muotoinen.
 Aja sovellus <b>5luento-hakemistosta</b>: 
 
 ```
-  python3 ./validointi/validate.py
+  python3 ./validate.py
 ```
 
 ## Tiedon muuntaminen
@@ -23,7 +23,7 @@ Transform muuttaa kirja.xml-tiedoston Dublin core XML-muotoon.
 Aja sovellus <b>5luento-hakemistosta</b>: 
 
 ```
-  python3 ./XMLmuunnos/transform.py
+  python3 ./transform.py
 ```
 
 Transform suorittaa ensin tiedon validoinnin, ja vasta sitten muuntaa tiedon, jos muunnettava tiedosto on validi.
