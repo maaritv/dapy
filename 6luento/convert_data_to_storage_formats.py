@@ -6,6 +6,7 @@ import pyarrow.parquet as pq
 import pyarrow.orc as orc
 
 
+
 class DataProcessingError(Exception):
     """Yleinen virhe datan käsittelyyn"""
     pass
@@ -75,6 +76,7 @@ def write_parquet(data, output_path):
 
     except OSError as e:
         raise DataProcessingError(f"Parquet-tiedostoon kirjoitus epäonnistui: {e}")
+    
 
 
 def main():
@@ -87,6 +89,7 @@ def main():
 
         write_orc(data, orc_file)
         write_parquet(data, parquet_file)
+
 
         print("Tallennus valmis:")
         print(f"- ORC: {orc_file}")

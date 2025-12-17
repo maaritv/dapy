@@ -2,7 +2,7 @@ import csv
 import random
 
 # Tiedoston nimi
-csv_file = "./input.csv"
+csv_file ="input.csv"
 
 # Sarakkeet
 fields = ['id', 'name', 'amount']
@@ -13,7 +13,7 @@ last_names = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Mille
 
 # Luo 2000 henkilöä
 rows = []
-for i in range(1, 2000000):
+for i in range(1, 201):
     person_name = f"{random.choice(first_names)} {random.choice(last_names)}"
     amount = random.randint(50, 1000)
     rows.append({'id': i, 'name': person_name, 'amount': amount})

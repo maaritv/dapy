@@ -29,7 +29,30 @@ python3 ./convert_data_to_storage_formats.py
 
 * Lue tuloksena tulleet tiedostot read_files.py ohjelmalla ja tarkista, kauanko tiedostojen lukemiseen meni.
 
+```
+python3 ./read_files.py
+```
+
 * Vertaa lukemia 100, 2000, 500 000 ja 1 000 000 objektia sisältävien datatiedostojen lukemisessa. 
 
 * Muuta esimerkkiä niin, että tulostat tiedostoista viimeisen rivin. Muuttuvatko lukemat?
+
+## Tee kyselyt
+
+1. Asenna viimeisin version Polars -paketista
+
+```
+pip3 install --upgrade polars
+```
+
+2. ja duckDB:stä
+```
+pip3 install --upgrade duckdb
+```
+
+* Vertaa do_query_parquet ja do_query_orc -skriptien sisältämien kyselyiden suoritusaikaa eri kokoisissa 
+tiedostoissa.
+
+* Muuttuuko tämän saman loogisen kyselyn suoritusaika eri formaattia olevista tiedostoista?
+
 
